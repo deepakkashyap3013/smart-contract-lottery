@@ -65,7 +65,7 @@ contract HelperConfig is Script, CodeConstants {
         return
             NetworkConfig({
                 entranceFee: 0.01 ether,
-                interval: 30, // 30 seconds
+                interval: 300, // 5 minutes
                 vrfCoordinatorV2: 0x9DdfaCa8183c41ad55329BdeeD9F6A8d53168B1B,
                 gasLane: 0x787d74caea10b2b357790d5b5247c2f63d1d91572a9846f780606e4d953677ae,
                 subscriptionId: 79805096848979556860038321305584050586322729559945451277284318037489107738292, // subscriptionId that is created from the chainLink UI associated to the account 0x65CD26aB04cfda59c62c2338417ec7091A72cBF2
